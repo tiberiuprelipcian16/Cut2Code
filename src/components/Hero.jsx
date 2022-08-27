@@ -1,12 +1,13 @@
 import React from "react";
 import "../style/hero.css";
 import imgHero from "../assets/imgHero.svg";
+import TextGradient from "./general/TextGradient";
+import Button from "./general/Button";
+import BlurElement from './general/BlurElement';
+
 import Metamask from "../assets/metamask.svg";
 import Binance from "../assets/binance.svg";
 import Coinbase from "../assets/coinbase.svg";
-import TextGradient from "./general/TextGradient";
-import Button from "./general/Button";
-
 const Hero = () => {
   return (
     <div className="flex22 fR" id="hero">
@@ -31,19 +32,28 @@ const Hero = () => {
       </div>
       <div className="right">
         <img src={imgHero} alt="imgHero" />
-        <div className="borderBlur">
-          <div className="flex22 fR blur">
-            <div className="metamask">
-              <img src={Metamask} alt="metamask" />
-            </div>
-            <div className="binance">
-              <img src={Binance} alt="binance" />
-            </div>
-            <div className="coinbase">
-              <img src={Coinbase} alt="coinbase" />
-            </div>
-          </div>
-        </div>
+
+          <BlurElement
+            height={"divBlurHero"}
+            className={"blurHero"}
+            classNameCol1={"metamask"}
+            classNameCol2={"coinbase"}
+            classNameCol3={"binance"}
+            classNameCol4={"none"}
+            classNameCol5={"none"}
+            linkc1={Metamask}
+            linkc2={Binance}
+            linkc3={Coinbase}
+            altImgc1={"metamask"}
+            altImgc2={"binance"}
+            altImgc3={"coinbase"}
+            name={""}
+            username={""}
+            price={""}
+            textButton={""}
+          />
+
+  
       </div>
     </div>
   );

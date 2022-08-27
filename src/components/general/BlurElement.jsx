@@ -2,7 +2,6 @@ import React from "react";
 import TextGradient from "./TextGradient";
 import Button from "./Button";
 import "../../style/blur.css";
-
 const BlurElement = ({
   height,
   className,
@@ -11,8 +10,12 @@ const BlurElement = ({
   classNameCol3,
   classNameCol4,
   classNameCol5,
-  link,
-  altImg,
+  linkc1,
+  linkc2,
+  linkc3,
+  altImgc1,
+  altImgc2,
+  altImgc3,
   name,
   username,
   price,
@@ -22,13 +25,13 @@ const BlurElement = ({
     <div className={height}>
       <div className={"flex22 fR blur " + className}>
         <div className={classNameCol1}>
-          <img src={link} alt={altImg} />
+          <img src={linkc1} alt={altImgc1} />
         </div>
         <div className={classNameCol2}>
-          <img src={link} alt={altImg} />
+          <img src={linkc2} alt={altImgc2} />
         </div>
         <div className={classNameCol3}>
-          <img src={link} alt={altImg} />
+          <img src={linkc3} alt={altImgc3} />
         </div>
         <div className={"flex22 fC " + classNameCol4}>
           <p className="name">{name}</p>
