@@ -1,0 +1,115 @@
+#hero {
+    width: 1280.43px;
+    height: 525.77px;
+    margin-top: 2px;
+
+    div {
+        height: 100%;
+    }
+
+    .left {
+        width: 615px;
+        height: 439px;
+        gap: 28px;
+
+        .txtTitle {
+            height: 243px;
+            width: 100%;
+
+            div {
+                color: white;
+
+                font-size: 67px;
+                font-weight: 700;
+                line-height: 81px;
+                letter-spacing: 0.015em;
+                text-align: left;
+
+            }
+        }
+
+        .secondText {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: white;
+            width: 522px;
+            height: 75px;
+
+        }
+
+        .buttons {
+            margin-top: 10px;
+            height: 55px;
+            gap: 28px;
+        }
+    }
+
+    .right {
+        width: 658.43px;
+        //background-color: blue;
+
+        img {
+            z-index: 1;
+            width: 495.44px;
+            height: 525.77px;
+            margin-left: 104px;
+        }
+
+        div {
+            background: rgba(255, 255, 255, 0.1);
+            height: 124.71px;
+
+            .blur {
+                border-left: 2px solid white;
+                border-right: 2px solid white;
+                background-image:
+                    linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(6, 19, 45, 1) 50%, rgba(255, 255, 255, 1)),
+                    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(6, 19, 45, 1), rgba(255, 255, 255, 1)),
+                    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(6, 19, 45, 1), rgba(255, 255, 255, 1));
+                background-size: 100% 1.5px;
+                background-position: 0 0, 0 100%;
+                background-repeat: no-repeat;
+                z-index: 2;
+                margin-top: calc(-124.71px - 29.11px);
+                width: calc(100% - 3px);
+                height: 124.71px;
+                position: relative;
+                border-radius: 7.42311px;
+                justify-content: space-around !important;
+                //i replaced blur(29.6924px) with blur(9px) because it didn't come out well at all. it didn't look like the model  
+                backdrop-filter: blur(9px);
+
+                div {
+                    background: transparent;
+                    border: none;
+                    position: relative;
+                    z-index: 5;
+
+                    img {
+                        margin: 0 !important;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .metamask {
+                    width: 188.03px;
+                    height: 34.63px;
+                }
+
+                .coinbase {
+                    width: 152.28px;
+                    height: 27.2px;
+                }
+
+                .binance {
+                    width: 173.14px;
+                    height: 34.63px;
+                }
+            }
+        }
+    }
+}
