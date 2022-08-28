@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/trending.css";
+import "../style/trending.scss";
 import Item from "./general/Items";
 import Item1 from "../assets/item1.svg";
 import Item2 from "../assets/item2.svg";

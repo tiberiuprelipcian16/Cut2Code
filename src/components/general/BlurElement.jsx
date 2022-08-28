@@ -1,7 +1,7 @@
 import React from "react";
 import TextGradient from "./TextGradient";
 import Button from "./Button";
-import "../../style/blur.css";
+import "../../style/blur.scss";
 const BlurElement = ({
   height,
   className,
@@ -10,6 +10,7 @@ const BlurElement = ({
   classNameCol3,
   classNameCol4,
   classNameCol5,
+  classNameCol6,
   linkc1,
   linkc2,
   linkc3,
@@ -39,6 +40,27 @@ const BlurElement = ({
           <TextGradient text={price} className={"tredingtxtGrad"} />
         </div>
         <Button className={classNameCol5} onClick={""} text={textButton} />
+
+        <div className={"flex22 " + classNameCol6}>
+          <div className="flex22 fC content">
+            <div className="flex22 fC topFooter">
+              <p className="title">Never miss a drop!</p>
+              <p>
+                Subscribe to super-exclusive drop list and be the first to know
+                about upcoming drops
+              </p>
+            </div>
+
+            <div className="flex22 fR subscribe">
+              <input type="email" placeholder="Enter your email address" />
+              <Button
+                text="Subscribe"
+                className={"bodyGradient footerButton"}
+                link={""}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

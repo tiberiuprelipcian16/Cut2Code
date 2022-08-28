@@ -1,7 +1,46 @@
 .circular {
+    z-index: 1;
     position: absolute;
-    height: 1468px;
-    width: 1468px;
     opacity: 0.5;
     background: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+}
+
+.min {
+    height: 1468px;
+    width: 1468px;
+}
+
+.max {
+    height: 2370px;
+    width: 2370px;
+}
+
+.footerCircular {
+    top: 215%;
+    left: -48%;
+    opacity: 0.3;
+}
+
+.creatorCircular {
+    height: 2358px;
+    width: 2866px;
+    top: 120%;
+    left: 23%
+}
+
+.trendingCircular1 {
+    background-image: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+    top: 40%;
+    left: -15%;
+    opacity: 0.3;
+}
+
+.trendingCircular2 {
+    top: -18%;
+    left: -76%
+}
+
+.heroCircular {
+    top: -60%;
+    left: 45%;
 }

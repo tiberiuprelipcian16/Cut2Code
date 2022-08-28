@@ -1,9 +1,9 @@
 import React from 'react'
-import "../../style/circular.css"
+import "../../style/circular.scss"
 
-const Circular = () => {
+const Circular = ({className}) => {
   return (
-    <div className='circular'></div>
+    <div className={'circular ' + className}></div>
   )
 }
 

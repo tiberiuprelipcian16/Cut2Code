@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/textGradient.css';
+import '../../style/textGradient.scss';
 
 const TextGradient = ({text, className}) => {
   return (

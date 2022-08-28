@@ -14,8 +14,6 @@
     //i replaced blur(29.6924px) with blur(9px) because it didn't come out well at all. it didn't look like the model  
     backdrop-filter: blur(9px);
 
-
-
     div {
         background: transparent;
         border: none;
@@ -47,8 +45,6 @@
     .none {
         display: none !important;
     }
-
-
 
     .item {
         justify-content: space-between !important;
@@ -92,7 +88,7 @@
     backdrop-filter: blur(29.6924px) !important;
     z-index: 2;
     margin-top: calc(-105px/2);
-    width: 496px;
+    width: 494px;
     height: 105px;
 }
 
@@ -105,3 +101,4 @@
     background: rgba(255, 255, 255, 0.1);
     height: 105px !important;
 }
+

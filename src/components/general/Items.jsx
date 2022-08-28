@@ -1,6 +1,6 @@
 import React from "react";
 import BlurElement from "./BlurElement";
-import "../../style/items.css";
+import "../../style/items.scss";
 
 const Items = ({ height, link, altimg, name, username, price }) => {
   return (
@@ -13,7 +13,8 @@ const Items = ({ height, link, altimg, name, username, price }) => {
         classNameCol2={"none"}
         classNameCol3={"none"}
         classNameCol4={"itm"}
-        classNameCol5={"buttonItem"}
+        classNameCol5={"bodyGradient trendingButt"}
+        classNameCol6={"none"}
         link={""}
         altImg={""}
         name={name}

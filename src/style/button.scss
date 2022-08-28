@@ -1,52 +1,91 @@
-button{
+button {
+    position: relative;
+    z-index: 5;
     outline: none;
-    border-radius: 100px;
+    border-radius: 30px;
     border: 0;
     margin: 0;
     padding: 0;
-    background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
     color: white;
     cursor: pointer;
-}
-
-.butt{
-    padding: 10px;
-}
-
-.headerButton{
-    background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
-    width: 168px;
-    height: 39px;
-    font-size: 19px;
     font-weight: 500;
+    font-size: 19.2px;
     line-height: 23px;
+    background-color: transparent;
+}
+
+.bodyGradient {
+    background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
     letter-spacing: 0em;
     text-align: center;
     color: white;
 }
 
-.hero1{
-    width: 173px;
-    height: 55px;
-    font-size: 16px;
+.borderGradient {
+    position: relative;
+    border: 3px solid transparent;
+    border-right-color: #3633D0;
+    border-left-color: #89C6FF;
+    background:
+        linear-gradient(to left,
+            #3633D0 10%, #89C6FF 100%,
+            transparent 100%, transparent 100%,
+            #89C6FF 100%, #89C6FF 100%) top/100% 3px,
+        linear-gradient(to left, #3633D0 0%, #89C6FF 100%) bottom/100% 3px;
+    background-repeat: no-repeat;
 }
 
-.hero2{
-    position: relative;
+.headerButt {
+    width: 168px;
+    height: 39px;
+}
 
+.hero1 {
+    width: 173px;
+    height: 55px;
+}
+
+.hero2 {
     width: 137px;
     height: 55px;
-    font-size: 16px;
-    padding: 3px !important;
+}
 
-  background:
-      linear-gradient(black, black) padding-box,
-      linear-gradient(to right,  #89C6FF -38.38%, #3633D0 71.88%) border-box;
-      border-radius: 50em;
-      border: 3px solid transparent;
-      border: 3px solid;
+.trendingButt {
+    width: 152px;
+    height: 39px;
+}
 
-border-image-source: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+.creator1 {
+    width: 126px;
+    height: 45px;
+}
 
+.creator2 {
+    width: 141px;
+    height: 45px;
+}
 
+.creator3 {
+    height: 55px;
+    width: 276px;
+    border-radius: 12px;
+    color: white;
+    margin: 33.95px 15px 16.05px 14px;
+}
+
+.creatoractiveButt {
+    background: linear-gradient(97.86deg, #89C6FF -38.38%, #3633D0 71.88%);
+    width: 44.94px;
+    height: 10px;
+}
+
+.creatorButt4 {
+    width: 20.7px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.footerButton {
+    height: 55px;
+    width: 138px;
 }

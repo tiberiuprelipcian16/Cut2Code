@@ -1,0 +1,33 @@
+#creator {
+    z-index: 2;
+    width: 1280px;
+    gap: 60.37px;
+
+    .cards{
+    display: grid;
+    grid-template-columns: 305px 305px 305px 305px;
+    gap: 20px;
+    }
+    .top {
+        gap: 32px;
+        .titleCreator {
+            font-size: 59px;
+            font-weight: 600;
+            line-height: 76px;
+            letter-spacing: 0.005em;
+            text-align: left;
+            width: 473px;
+            height: 76px;
+            color: white;
+        }
+
+        .buttons {
+            gap: 21px;
+        }
+    }
+
+    .next{
+        margin-top: calc(-60.37px + 55.12px) ;
+        gap: 4.65px
+    }
+}

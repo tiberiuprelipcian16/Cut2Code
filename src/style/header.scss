@@ -1,31 +1,37 @@
 header {
-    margin-top: 26px;
-    height: 39px;
-    width: 1281px;
-    border-radius: 30px;
-    background-color: transparent;
-    justify-content: space-between !important;
+    z-index: 2;
+    //margin-top: 35px;
+    padding: 35px 80px 35px 80px;
+    border-bottom: 1px solid rgb(255, 255, 255, .3);
 
-    p {
-        color: white;
-        font-size: 27px;
-        font-weight: 700;
-        line-height: 31px;
-        letter-spacing: -0.025em;
-        text-align: left;
-    }
+    .content {
+        border-radius: 30px;
+        background-color: transparent;
+        justify-content: space-between !important;
+        width: 1281px;
+        height: 39px;
 
-    ul {
-        gap: 30px;
-
-        li {
+        p {
             color: white;
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 21px;
-            letter-spacing: 0em;
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 31px;
+            letter-spacing: -0.025em;
             text-align: left;
         }
-    }
 
+        ul {
+            gap: 30px;
+
+            li {
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+
+    }
 }

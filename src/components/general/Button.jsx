@@ -1,11 +1,13 @@
 import React from "react";
-import "../../style/button.css";
+import "../../style/button.scss";
 
 const Button = ({ className, text, link }) => {
   return (
-    <button className={className} onClick={() => link}>
-      {text}
-    </button>
+    <div className="borderr">
+      <button className={className} onClick={() => link}>
+        {text}
+      </button>
+    </div>
   );
 };
 

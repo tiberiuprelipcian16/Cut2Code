@@ -1,8 +1,10 @@
 #trending {
+    z-index: 2;
     width: 1284px;
     gap: 90px;
 
     .components {
+        margin-top: 11px;
         display: grid !important;
         grid-template-columns: auto auto;
         align-items: center;

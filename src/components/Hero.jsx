@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/hero.css";
+import "../style/hero.scss";
 import imgHero from "../assets/imgHero.svg";
 import TextGradient from "./general/TextGradient";
 import Button from "./general/Button";
@@ -11,7 +11,7 @@ import Coinbase from "../assets/coinbase.svg";
 const Hero = () => {
   return (
     <div className="flex22 fR" id="hero">
-      <div className="flex12 fC left">
+      <div className="flex21 fC left">
         <div className="txtTitle">
           <div>
             Discover & Collect <TextGradient text={"Super Rare"} /> Digital
@@ -26,12 +26,12 @@ const Hero = () => {
         </p>
 
         <div className="flex22 fR buttons">
-          <Button text={"Let’s Explore"} className={"hero1"}/>
-          <Button text={"Sell NFT"} className={"hero2"}/>
+          <Button text={"Let’s Explore"} className={"bodyGradient headerButt hero1"}/>
+          <Button text={"Sell NFT"} className={"borderGradient headerButt hero2"}/>
         </div>
       </div>
       <div className="right">
-        <img src={imgHero} alt="imgHero" />
+        <img className="heroImg" src={imgHero} alt="imgHero" />
 
           <BlurElement
             height={"divBlurHero"}
@@ -41,6 +41,7 @@ const Hero = () => {
             classNameCol3={"binance"}
             classNameCol4={"none"}
             classNameCol5={"none"}
+            classNameCol6={"none"}
             linkc1={Metamask}
             linkc2={Binance}
             linkc3={Coinbase}
