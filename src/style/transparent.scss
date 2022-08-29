@@ -1,0 +1,32 @@
+.buttTransparent {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 19.2px;
+    line-height: 23px;
+    position: relative;
+    border: 3px solid transparent;
+    border-right-color: #3633D0;
+    border-left-color: #89C6FF;
+    background:
+        linear-gradient(to left,
+            #3633D0 10%, #89C6FF 100%,
+            transparent 100%, transparent 100%,
+            #89C6FF 100%, #89C6FF 100%) top/100% 3px,
+        linear-gradient(to left, #3633D0 0%, #89C6FF 100%) bottom/100% 3px;
+    background-repeat: no-repeat;
+
+    .hero2 {
+        width: 137px;
+        height: 55px;
+    }
+
+    .creator2 {
+        text-align: center;
+        width: 141px;
+        height: 39px;
+    }
+}
