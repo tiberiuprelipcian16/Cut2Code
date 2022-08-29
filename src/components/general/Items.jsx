@@ -21,7 +21,8 @@ const Items = ({ height, link, altimg, name, username, price }) => {
         username={username}
         price={price}
         textButton={"Collect Now"}
-      />
+      ></BlurElement>
+
     </div>
   );
 };

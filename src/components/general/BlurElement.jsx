@@ -2,6 +2,7 @@ import React from "react";
 import TextGradient from "./TextGradient";
 import Button from "./Button";
 import "../../style/blur.scss";
+
 const BlurElement = ({
   height,
   className,
