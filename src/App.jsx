@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Trending from "./components/Trending";
 import Creator from "./components/Creator";
@@ -9,10 +8,11 @@ import Circular from './components/general/Circular';
 
 function App() {
   return (
-    <main className='flex22 fC'>
-      <Header/>
-      <Circular className={"heroCircular min"}/>
+    <main className='flex12 fC'>
+    
+      
       <Hero/>
+      <Circular className={"heroCircular min"}/>
       <Trending/>
       <Circular className={"trendingCircular1 max"}/>
       <Circular className={"trendingCircular2 max"}/>

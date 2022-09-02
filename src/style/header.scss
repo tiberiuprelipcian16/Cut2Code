@@ -1,5 +1,16 @@
+.sticky {
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(15px);
+    top: 0;
+}
+
+.margintop{
+    padding-top: 110px;
+}
+
 header {
-    z-index: 2;
+    z-index: 999;
     //margin-top: 35px;
     padding: 35px 80px 35px 80px;
     border-bottom: 1px solid rgb(255, 255, 255, .3);
@@ -33,5 +44,66 @@ header {
             }
         }
 
+    }
+}
+
+@media(max-width: 1500px){
+    .margintop{
+        padding-top: 100px;
+    }
+    
+    header {
+        padding: 20px 0;
+    
+        .content {
+            border-radius: 30px;
+            width: 1200px;
+            height: 39px;
+    
+            p {
+                color: white;
+                font-size: 27px;
+                font-weight: 700;
+                line-height: 31px;
+                letter-spacing: -0.025em;
+                text-align: left;
+            }
+    
+            ul {
+                margin-left: 50px;
+                gap: 30px;
+            }
+    
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    header {
+        .content {
+            width: 1000px;
+        }
+    }
+}
+
+@media(max-width: 1200px){
+    header {
+        .content {
+            width: 820px;
+    
+            p {
+                font-size: 20px;
+            }
+    
+            ul {
+                gap: 30px;
+    
+                li {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+    
+        }
     }
 }
